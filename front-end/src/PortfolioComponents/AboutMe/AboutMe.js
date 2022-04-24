@@ -18,11 +18,23 @@ export default function AboutMe() {
         </div>
         <div>
           <p>
-            Full stack web and mobile developer with background knowledge of
-            MERN stacks with redux, along with a knack of building applications
-            with utmost efficiency. Strong professional with a BSC willing to be
-            an asset for an organization
+            Full stack web developer with background knowledge of MERN stacks
+            with redux, along with a knack of building applications with utmost
+            efficiency. Strong professional with a BSC willing to be an asset
+            for an organization
           </p>
+          <br />
+          <h3 style={{ fontWeight: "normal", marginBottom: 0 }}>
+            Here are a few highlights:
+          </h3>
+          <ul>
+            <li>Full stack web and mobile development</li>
+            <li>Dean's List</li>
+            <li>React and React Native</li>
+            <li>Building REST API</li>
+            <li>Managing database</li>
+            <li>Teaching Assistant for numerous courses</li>
+          </ul>
         </div>
       </div>
     </div>
