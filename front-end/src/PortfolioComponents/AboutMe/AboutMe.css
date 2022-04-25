@@ -80,3 +80,21 @@
   margin-top: -50px;
   margin-bottom: -50px;
 }
+
+@media (max-width: 820px) {
+  .about-me-content {
+    box-shadow: 1px 5px 10px 10px #888888;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .about-me-content > div {
+    height: unset;
+  }
+
+  .about-me-content > div > img {
+    width: 95%;
+  }
+}
