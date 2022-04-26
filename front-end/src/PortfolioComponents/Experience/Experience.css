@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1;
+}
+
+.experiences {
+  height: 100%;
+}
+
+.Tabs {
+  margin-top: 25px;
+  height: 100%;
+  display: flex;
+}
+
+.TabList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.TabList {
+  margin-left: 190px;
+  width: 10rem;
+  background: #263238;
+}
+
+.TabPanel {
+  /* flex: 1; */
+  display: none;
+  padding: 1.5rem 2rem;
+  width: 50%;
+}
+.TabPanel.is-active {
+  display: block;
+}
+
+.Button {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+.Button:focus,
+.Button:hover {
+  outline: 0;
+  background: #37474f;
+}
+.Tab.is-active .Button {
+  background: #0091ea;
+}
+
+.job-entry-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.job-title {
+  font-weight: bold;
+}
+
+.job-date {
+  color: #24263b;
+}
+
+.company {
+  color: #0091ea;
+  margin-top: 10px;
+}
+
+.job-description {
+  margin-left: 15px;
+  list-style-type: circle;
+}
+
+.job-description li {
+  padding: 5px 0px;
+}
+
+@media (max-width: 820px) {
+  .TabList {
+    margin-left: 15px;
+  }
+
+  .job-entry-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+
+  .job-date {
+    margin-top: 10px;
+  }
+
+  .job-description {
+    font-size: 15px;
+  }
+}

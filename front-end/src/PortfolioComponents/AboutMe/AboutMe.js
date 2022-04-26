@@ -5,9 +5,9 @@ import AboutMeImg from "../../assets/Home/me.jpeg";
 export default function AboutMe() {
   return (
     <div className="about-me-container">
-      <div className="about-me-heading">
-        <h3>About Me</h3>
-        <h5>Why Choose Me?</h5>
+      <div className="heading-container">
+        <h3 className="main-heading">About Me</h3>
+        <h5 className="subheading">Why Choose Me?</h5>
         <div className="outter-line">
           <div className="inner-line"></div>
         </div>
