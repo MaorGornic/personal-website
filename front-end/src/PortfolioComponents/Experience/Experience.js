@@ -1,8 +1,5 @@
 /* Taken from https://codepen.io/anthonydugois/pen/QyYgaN */
 import React from "react";
-
-// import { Tab, Col, Nav, Row } from "react-bootstrap";
-// import * as ReactDOM from "react-dom";
 import "./Experience.css";
 
 const { Component } = React;
@@ -16,7 +13,7 @@ const Experience = () => (
         <div className="inner-line"></div>
       </div>
     </div>
-    <Tabs selected={1}>
+    <Tabs selected={0}>
       <TabList>
         <Tab>
           <Button>
