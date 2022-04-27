@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import RestifyLogo from "../../assets/Projects/restify.PNG";
+import StudytogetherLogo from "../../assets/Projects/studytogether.PNG";
+import TransitLogo from "../../assets/Projects/transitapp.PNG";
 
 export default function Projects() {
   return (
@@ -20,16 +22,15 @@ export default function Projects() {
           <div className="project-description">
             <p>
               A restaurant social media platform web application that allows
-              restaurant owners to advertise their restaurant, publish their
-              menu, location, contact information, create blogs, communicate
-              with other restaurant owners, grow their audience and much more.
-              Moreover, users can use this social media to explore new
-              restaurants, foods, reach out to restaurant owners, and construct
-              constructive feedback for different restaurants.
+              restaurant owners to advertise their restaurant, create blogs,
+              communicate with other restaurant owners, grow their audience and
+              much more. Users can use this social media to explore new
+              restaurants, foods, and construct constructive feedback for
+              different restaurants.
               <br />
               <br />
               <span>Technologies used:</span> <br /> Python, Django, React, Git,
-              SQLite, JWT
+              Chakra UI, SQLite, JWT, Javascript, HTML, CSS,
             </p>
           </div>
         </div>
@@ -40,20 +41,35 @@ export default function Projects() {
         <div className="project-container">
           <div className="project-description">
             <p>
-              A restaurant social media platform web application that allows
-              restaurant owners to advertise their restaurant, publish their
-              menu, location, contact information, create blogs, communicate
-              with other restaurant owners, grow their audience and much more.
-              Moreover, users can use this social media to explore new
-              restaurants, foods, reach out to restaurant owners, and construct
-              constructive feedback for different restaurants.
+              A web application that facilitates the process of forming study
+              groups at universities across the world.
               <br />
               <br />
-              <span>Technologies used:</span> <br /> Python, Django, React, Git,
-              SQLite, JWT
+              <span>Technologies used:</span> <br /> MongoDB, Express.js, React,
+              Node,js, Jira, Git, Chakra UI, JWT, Firebase, Javascript, HTML,
+              CSS, Redux
             </p>
           </div>
-          <img src={RestifyLogo} alt="" />
+          <img src={StudytogetherLogo} alt="" />
+        </div>
+      </div>
+      {/* Project 3 */}
+      <div className="project-left">
+        <h1 className="project-title">IGoTransit</h1>
+        <div className="project-container">
+          <img src={TransitLogo} alt="" />
+          <div className="project-description">
+            <p>
+              A Java program that simulates electronic transit systems in Canada
+              ie. PRESTO, TTC etc. There are two types of users in this program
+              i.e. Admins and Cardholders. Cardholders are civilians utilizing
+              the transportation while the Admin is the owner/manager of said
+              transportation system.
+              <br />
+              <br />
+              <span>Technologies used:</span> <br /> Java, JavaFX, CSS
+            </p>
+          </div>
         </div>
       </div>
     </div>

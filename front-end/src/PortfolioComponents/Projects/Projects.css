@@ -38,7 +38,6 @@
 }
 
 .project-description p {
-  /* color: #111517; */
   color: white;
   font-size: 17px;
   line-height: 23px;
@@ -57,4 +56,44 @@
 .project-right h1 {
   margin-right: 80px;
   text-align: right;
+}
+
+@media (max-width: 960px) {
+  .project-container {
+    display: block;
+  }
+
+  .project-left img,
+  .project-right img {
+    width: 95%;
+  }
+
+  .project-right img {
+    margin-top: 1rem;
+  }
+
+  .project-right h1 {
+    margin-right: 50px;
+    text-align: right;
+  }
+
+  .project-left,
+  .project-right {
+    margin-left: 15px;
+    margin-bottom: 5rem;
+  }
+
+  .project-description p {
+    font-size: 10px;
+  }
+
+  .project-description {
+    width: 95%;
+  }
+
+  .project-left > div > div,
+  .project-right > div > div {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }
