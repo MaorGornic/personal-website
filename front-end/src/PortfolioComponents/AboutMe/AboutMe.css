@@ -12,7 +12,7 @@
 }
 
 .about-me-content > div {
-  height: 400px;
+  height: 500px;
 }
 
 .about-me-content > div > img {
@@ -24,11 +24,16 @@
   margin: 50px 50px 0 50px;
 }
 
+.about-me-text-container {
+  font-size: 120%;
+}
+
 .about-me-content ul {
   list-style: none;
   margin-top: 0;
   text-align: left;
   margin-left: 5rem;
+  margin-top: 0.5rem;
 }
 
 .about-me-content ul li::before {

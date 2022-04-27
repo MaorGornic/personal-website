@@ -1,0 +1,60 @@
+.projects-container {
+  margin-bottom: 2rem;
+}
+
+.project-left,
+.project-right {
+  margin-left: 190px;
+  margin-bottom: 5rem;
+}
+
+.project-container {
+  display: flex;
+}
+
+.project-left img,
+.project-right img {
+  box-shadow: 10px 10px 25px #ccc;
+  width: 50%;
+}
+
+.project-description {
+  z-index: 100;
+  box-shadow: 10px 10px 25px rgb(50, 50, 50);
+  background-color: #0091ea;
+  border-radius: 15px;
+  width: 50%;
+  height: 250px;
+}
+
+.project-left > div > div {
+  margin-top: -10px;
+  margin-left: -70px;
+}
+
+.project-right > div > div {
+  margin-top: -10px;
+  margin-right: -70px;
+}
+
+.project-description p {
+  /* color: #111517; */
+  color: white;
+  font-size: 17px;
+  line-height: 23px;
+  padding: 5px 5px 0 15px;
+}
+
+.project-description span {
+  font-weight: bold;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px #ff5823;
+}
+
+.project-right h1 {
+  margin-right: 80px;
+  text-align: right;
+}
