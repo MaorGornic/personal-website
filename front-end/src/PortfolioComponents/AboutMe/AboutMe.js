@@ -5,7 +5,7 @@ import Zoom from "react-reveal/Zoom";
 
 export default function AboutMe() {
   return (
-    <div className="about-me-container">
+    <div id="about-me" className="about-me-container">
       <Zoom>
         <div className="heading-container">
           <h3 className="main-heading">About Me</h3>

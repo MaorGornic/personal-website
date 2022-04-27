@@ -7,7 +7,7 @@ import Zoom from "react-reveal/Zoom";
 
 export default function Projects() {
   return (
-    <div className="projects-container">
+    <div id="projects" className="projects-container">
       <Zoom>
         <div className="heading-container">
           <h3 className="main-heading">Projects</h3>

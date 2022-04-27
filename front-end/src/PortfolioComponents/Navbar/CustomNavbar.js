@@ -2,7 +2,6 @@ import React from "react";
 import "./CustomNavbar.css";
 import Sidebar from "../Sidebar/Sidebar";
 import { useState, useEffect } from "react";
-import Zoom from "react-reveal/Zoom";
 
 export default function CustomNavbar() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -15,19 +14,19 @@ export default function CustomNavbar() {
     <nav className="navbar">
       <ul className="nav-links">
         <li className="nav-item">
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li className="nav-item">
-          <a href="#">About Me</a>
+          <a href="#about-me">About Me</a>
         </li>
         <li className="nav-item">
-          <a href="#">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
         <li className="nav-item">
-          <a href="#">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li className="nav-item">
-          <a href="#">Education</a>
+          <a href="#education">Education</a>
         </li>
       </ul>
     </nav>

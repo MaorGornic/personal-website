@@ -4,7 +4,7 @@ import "./Education.css";
 
 export default function Education() {
   return (
-    <div>
+    <div id="education">
       <Zoom>
         <div className="heading-container">
           <h3 className="main-heading">Education</h3>

@@ -6,7 +6,7 @@ import Zoom from "react-reveal/Zoom";
 const { Component } = React;
 
 const Experience = () => (
-  <div className="experiences">
+  <div id="experience" className="experiences">
     <Zoom>
       <div className="heading-container">
         <h3 className="main-heading">Experience</h3>

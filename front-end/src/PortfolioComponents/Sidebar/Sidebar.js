@@ -32,19 +32,19 @@ export default (props) => {
 
   return (
     <Menu isOpen={isOpen} onOpen={handleIsOpen} onClose={handleIsOpen}>
-      <a className="menu-item" href="#">
+      <a className="menu-item" href="#home">
         Home
       </a>
-      <a className="menu-item" href="#">
+      <a className="menu-item" href="#about-me">
         About Me
       </a>
-      <a className="menu-item" href="#">
+      <a className="menu-item" href="#experience">
         Experience
       </a>
-      <a className="menu-item" href="#">
+      <a className="menu-item" href="#projects">
         Projects
       </a>
-      <a className="menu-item" href="#">
+      <a className="menu-item" href="#education">
         Education
       </a>
     </Menu>
