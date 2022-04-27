@@ -2,17 +2,17 @@ import React from "react";
 import "./CustomNavbar.css";
 import Sidebar from "../Sidebar/Sidebar";
 import { useState, useEffect } from "react";
+import Zoom from "react-reveal/Zoom";
 
 export default function CustomNavbar() {
-  const [width, setWidth] = React.useState(window.innerWidth);
+  const [width, setWidth] = useState(window.innerWidth);
 
   useEffect(() => {
     window.addEventListener("resize", () => setWidth(window.innerWidth));
-  });
+  }, []);
 
   return width >= 510 ? (
     <nav className="navbar">
-      {/* <p className="logo">Maor</p> */}
       <ul className="nav-links">
         <li className="nav-item">
           <a href="#">Home</a>

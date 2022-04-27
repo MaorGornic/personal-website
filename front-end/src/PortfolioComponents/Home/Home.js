@@ -8,8 +8,8 @@ import Zoom from "react-reveal/Zoom";
 export default function Home() {
   return (
     <div className="home-container">
+      <CustomNavbar />
       <Zoom top>
-        <CustomNavbar />
         <Profile />
       </Zoom>
       <Footer />

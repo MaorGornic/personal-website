@@ -2,10 +2,16 @@
 import React from "react";
 import { bubble as Menu } from "react-burger-menu";
 import "./Sidebar.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default (props) => {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    let hamburger = document.getElementsByClassName("bm-burger-button")[0];
+    hamburger.style.transition = "all 2s ease-in-out";
+    hamburger.style.opacity = 1;
+  }, []);
 
   const handleIsOpen = () => {
     const currState = !isOpen;
@@ -14,7 +20,7 @@ export default (props) => {
     // hide hamburger
     if (currState) {
       // transition: all .5s ease-in-out;
-      hamburger.style.transition = "all .5s ease-in-out";
+      hamburger.style.transition = "all 0.5s ease-in-out";
       hamburger.style.opacity = 0;
     }
 
