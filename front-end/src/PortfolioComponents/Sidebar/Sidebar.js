@@ -31,22 +31,24 @@ export default (props) => {
   };
 
   return (
-    <Menu isOpen={isOpen} onOpen={handleIsOpen} onClose={handleIsOpen}>
-      <a className="menu-item" href="#home" onClick={handleIsOpen}>
-        Home
-      </a>
-      <a className="menu-item" href="#about-me" onClick={handleIsOpen}>
-        About Me
-      </a>
-      <a className="menu-item" href="#experience" onClick={handleIsOpen}>
-        Experience
-      </a>
-      <a className="menu-item" href="#projects" onClick={handleIsOpen}>
-        Projects
-      </a>
-      <a className="menu-item" href="#education" onClick={handleIsOpen}>
-        Education
-      </a>
-    </Menu>
+    <div className="sidebar">
+      <Menu isOpen={isOpen} onOpen={handleIsOpen} onClose={handleIsOpen}>
+        <a className="menu-item" href="#home" onClick={handleIsOpen}>
+          Home
+        </a>
+        <a className="menu-item" href="#about-me" onClick={handleIsOpen}>
+          About Me
+        </a>
+        <a className="menu-item" href="#experience" onClick={handleIsOpen}>
+          Experience
+        </a>
+        <a className="menu-item" href="#projects" onClick={handleIsOpen}>
+          Projects
+        </a>
+        <a className="menu-item" href="#education" onClick={handleIsOpen}>
+          Education
+        </a>
+      </Menu>
+    </div>
   );
 };

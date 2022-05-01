@@ -9,7 +9,7 @@
 }
 .profile-parent {
   display: flex;
-  align-items: flex;
+  align-items: center;
   color: aliceblue;
 }
 .profile-details-name {
@@ -24,6 +24,9 @@
 .profile-details-role h1 {
   font-size: 40px;
   font-family: cursive;
+}
+.profile-details {
+  width: 525px;
 }
 .primary-text {
   color: var(--white);
@@ -100,6 +103,10 @@
     height: 320px;
     width: 320px;
     margin: 0 0 0 4px;
+  }
+
+  .profile-details {
+    width: 325px;
   }
 }
 
