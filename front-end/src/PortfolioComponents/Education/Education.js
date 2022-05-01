@@ -8,7 +8,7 @@ export default function Education() {
       <Zoom>
         <div className="heading-container">
           <h3 className="main-heading">Education</h3>
-          <h5 className="subheading">Where did I study?</h5>
+          <h5 className="subheading">Where do I study?</h5>
           <div className="outter-line">
             <div className="inner-line"></div>
           </div>

@@ -9,8 +9,10 @@ nav {
   padding-left: 30px;
   padding-right: 10px;
   display: flex;
-  /* justify-content: center; */
+  position: fixed;
   align-items: center;
+  background-color: #24263b;
+  z-index: 1000;
 }
 
 .nav-links {

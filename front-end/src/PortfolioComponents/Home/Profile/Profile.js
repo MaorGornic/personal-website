@@ -1,6 +1,6 @@
 import React from "react";
-import Typical from "react-typical";
 import "./Profile.css";
+import Typewriter from "typewriter-effect";
 
 export default function Profile() {
   return (
@@ -9,14 +9,11 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="#">
-                <i className="fa fa-facebook-square"></i>
+              <a href="https://www.linkedin.com/in/maor-gornic-00b6b119a/">
+                <i className="fa fa-linkedin-square"></i>
               </a>
               <a href="#">
                 <i className="fa fa-google-plus-square"></i>
-              </a>
-              <a href="#">
-                <i className="fa fa-instagram"></i>
               </a>
               <a href="#">
                 <i className="fa fa-youtube"></i>
@@ -29,18 +26,25 @@ export default function Profile() {
 
           <div className="profile-details-name">
             <span className="primary-text">
-              {" "}
               Hello, I'M <span className="highlighted-text">Maor</span>
             </span>
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
               <h1>
-                <Typical loop={1} steps={["An Enthusiastic Developer", 1000]} />
+                <Typewriter
+                  onInit={(typewriter) => {
+                    typewriter
+
+                      .typeString("An Enthusiastic Developer")
+
+                      .pauseFor(1000)
+                      .start();
+                  }}
+                />
               </h1>
               <span className="profile-role-tagline">
-                Knack of building applications with front and back end
-                operations.
+                Who enjoys learning and turning ideas into reality
               </span>
             </span>
           </div>

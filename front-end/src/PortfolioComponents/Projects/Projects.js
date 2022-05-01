@@ -63,7 +63,7 @@ export default function Projects() {
       {/* Project 3 */}
       <Zoom>
         <div className="project-left">
-          <h1 className="project-title">IGoTransit</h1>
+          <h1 className="project-title">iGoTransit</h1>
           <div className="project-container">
             <img src={TransitLogo} alt="" />
             <div className="project-description">

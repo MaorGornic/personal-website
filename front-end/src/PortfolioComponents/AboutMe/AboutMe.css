@@ -26,6 +26,7 @@
 
 .about-me-text-container {
   font-size: 110%;
+  line-height: 1.5rem;
 }
 
 .about-me-content ul {
@@ -104,6 +105,14 @@
   .about-me-content > div {
     height: unset;
   }
+
+  .about-me-content {
+    margin-top: 50px;
+  }
+
+  /* .about-me-content > div {
+    margin-top: 50px;
+  } */
 
   .about-me-content > div > img {
     width: 95%;

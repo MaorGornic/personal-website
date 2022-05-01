@@ -20,10 +20,11 @@ export default function AboutMe() {
           </div>
           <div className="about-me-text-container">
             <p>
-              Full stack web developer with background knowledge of MERN stacks
-              with redux, along with a knack of building applications with
-              utmost efficiency. Strong professional with a BSC willing to be an
-              asset for an organization
+              Full stack web developer who is passionate about bringing ideas to
+              life, has experience working with a wide range of technologies,
+              eager to learn, and build applications with utmost efficiency.
+              Strong professional with HBSc willing to be an asset for an
+              organization.
             </p>
             <br />
             <h3
@@ -37,12 +38,12 @@ export default function AboutMe() {
               Here are a few highlights:
             </h3>
             <ul>
-              <li>Full stack web and mobile development</li>
-              <li>Dean's List</li>
-              <li>React and React Native</li>
+              <li>Full Stack Web and Mobile Development</li>
+              <li>Distributed Systems Development</li>
+              <li>React and React Native Development</li>
               <li>Building REST API</li>
-              <li>Managing database</li>
-              <li>Teaching Assistant for numerous courses</li>
+              <li>Managing Databases</li>
+              <li>On Dean's Honours List</li>
             </ul>
           </div>
         </div>
