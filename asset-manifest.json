@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio_website/static/css/main.738c340b.css",
-    "main.js": "/portfolio_website/static/js/main.52d24a1c.js",
-    "static/js/787.22edae46.chunk.js": "/portfolio_website/static/js/787.22edae46.chunk.js",
-    "static/media/restify.PNG": "/portfolio_website/static/media/restify.9cef53a33372f87ef09e.PNG",
-    "static/media/studytogether.PNG": "/portfolio_website/static/media/studytogether.6981c808e620c3224444.PNG",
-    "static/media/me.jpeg": "/portfolio_website/static/media/me.39cf66fc2d0af455b7ce.jpeg",
-    "static/media/Poppins-Thin.ttf": "/portfolio_website/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
-    "static/media/Poppins-Light.ttf": "/portfolio_website/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
-    "static/media/Poppins-Regular.ttf": "/portfolio_website/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
-    "static/media/Poppins-Medium.ttf": "/portfolio_website/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
-    "static/media/Poppins-SemiBold.ttf": "/portfolio_website/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
-    "static/media/Poppins-Bold.ttf": "/portfolio_website/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
-    "static/media/Poppins-ExtraBold.ttf": "/portfolio_website/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
-    "static/media/transitapp.PNG": "/portfolio_website/static/media/transitapp.64ad433b66a0f9b28108.PNG",
-    "static/media/hdsb-logo.png": "/portfolio_website/static/media/hdsb-logo.e8988bd072a36ec25fa3.png",
-    "static/media/profilephoto.jpg": "/portfolio_website/static/media/profilephoto.d20f38810dd3ac7b39ed.jpg",
-    "index.html": "/portfolio_website/index.html",
-    "main.738c340b.css.map": "/portfolio_website/static/css/main.738c340b.css.map",
-    "main.52d24a1c.js.map": "/portfolio_website/static/js/main.52d24a1c.js.map",
-    "787.22edae46.chunk.js.map": "/portfolio_website/static/js/787.22edae46.chunk.js.map"
+    "main.css": "/personal-website/static/css/main.fbd20df1.css",
+    "main.js": "/personal-website/static/js/main.2cc773e4.js",
+    "static/js/787.22edae46.chunk.js": "/personal-website/static/js/787.22edae46.chunk.js",
+    "static/media/restify.PNG": "/personal-website/static/media/restify.9cef53a33372f87ef09e.PNG",
+    "static/media/studytogether.PNG": "/personal-website/static/media/studytogether.6981c808e620c3224444.PNG",
+    "static/media/me.jpeg": "/personal-website/static/media/me.39cf66fc2d0af455b7ce.jpeg",
+    "static/media/Poppins-Thin.ttf": "/personal-website/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/personal-website/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/personal-website/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/personal-website/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/personal-website/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/personal-website/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/personal-website/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/transitapp.PNG": "/personal-website/static/media/transitapp.64ad433b66a0f9b28108.PNG",
+    "static/media/hdsb-logo.png": "/personal-website/static/media/hdsb-logo.e8988bd072a36ec25fa3.png",
+    "static/media/profilephoto.jpg": "/personal-website/static/media/profilephoto.d20f38810dd3ac7b39ed.jpg",
+    "index.html": "/personal-website/index.html",
+    "main.fbd20df1.css.map": "/personal-website/static/css/main.fbd20df1.css.map",
+    "main.2cc773e4.js.map": "/personal-website/static/js/main.2cc773e4.js.map",
+    "787.22edae46.chunk.js.map": "/personal-website/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.738c340b.css",
-    "static/js/main.52d24a1c.js"
+    "static/css/main.fbd20df1.css",
+    "static/js/main.2cc773e4.js"
   ]
 }
