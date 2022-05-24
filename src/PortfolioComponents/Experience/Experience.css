@@ -14,33 +14,33 @@ body {
   background-color: #24263b;
 }
 
-.Tabs {
+.tabs {
   margin-top: 25px;
   height: 100%;
   display: flex;
 }
 
-.TabList {
+.tab-list {
   list-style-type: none;
   padding-left: 0;
 }
 
-.TabList {
+.tab-list {
   margin-left: 190px;
   width: 10rem;
   background: #263238;
 }
 
-.TabPanel {
+.tab-panel {
   display: none;
   padding: 1.5rem 2rem;
   width: 50%;
 }
-.TabPanel.is-active {
+.tab-panel.is-active {
   display: block;
 }
 
-.Button {
+.button {
   display: inline-block;
   width: 100%;
   padding: 1rem 2rem;
@@ -52,12 +52,12 @@ body {
   font-weight: bold;
   color: #fff;
 }
-.Button:focus,
-.Button:hover {
+.button:focus,
+.button:hover {
   outline: 0;
   background: #37474f;
 }
-.Tab.is-active .Button {
+.tab.is-active .button {
   background: #0091ea;
   border-bottom: 5px solid #ff5823;
 }
@@ -98,7 +98,7 @@ body {
     margin-top: -5px;
   }
 
-  .TabList {
+  .tab-list {
     margin-left: 15px;
   }
 

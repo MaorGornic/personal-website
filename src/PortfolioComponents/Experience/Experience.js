@@ -156,25 +156,25 @@ class Tabs extends Component {
 
   render() {
     return (
-      <div className="Tabs">{this.renderChildren(this.props.children)}</div>
+      <div className="tabs">{this.renderChildren(this.props.children)}</div>
     );
   }
 }
 
-const TabList = ({ children }) => <ul className="TabList">{children}</ul>;
+const TabList = ({ children }) => <ul className="tab-list">{children}</ul>;
 
 const Tab = ({ _onClick, _isActive, children }) => (
-  <li className={`Tab  ${_isActive ? "is-active" : ""}`} onClick={_onClick}>
+  <li className={`tab  ${_isActive ? "is-active" : ""}`} onClick={_onClick}>
     {children}
   </li>
 );
 
 const TabPanel = ({ _isActive, children }) => (
-  <div className={`TabPanel  ${_isActive ? "is-active" : ""}`}>{children}</div>
+  <div className={`tab-panel  ${_isActive ? "is-active" : ""}`}>{children}</div>
 );
 
 /* --- */
 
-const Button = ({ children }) => <button className="Button">{children}</button>;
+const Button = ({ children }) => <button className="button">{children}</button>;
 
 export default Experience;
