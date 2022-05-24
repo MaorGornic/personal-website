@@ -164,13 +164,13 @@ class Tabs extends Component {
 const TabList = ({ children }) => <ul className="tab-list">{children}</ul>;
 
 const Tab = ({ _onClick, _isActive, children }) => (
-  <li className={`tab  ${_isActive ? "is-active" : ""}`} onClick={_onClick}>
+  <li className={`tab ${_isActive ? "is-active" : ""}`} onClick={_onClick}>
     {children}
   </li>
 );
 
 const TabPanel = ({ _isActive, children }) => (
-  <div className={`tab-panel  ${_isActive ? "is-active" : ""}`}>{children}</div>
+  <div className={`tab-panel ${_isActive ? "is-active" : ""}`}>{children}</div>
 );
 
 /* --- */

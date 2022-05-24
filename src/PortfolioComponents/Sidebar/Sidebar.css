@@ -80,11 +80,13 @@
 .bm-item-list {
   color: #b8b7ad;
   padding: 0.8em;
+  z-index: 999;
 }
 
 /* Individual item */
 .bm-item {
   display: inline-block;
+  z-index: 999;
 }
 
 /* Styling of overlay */
