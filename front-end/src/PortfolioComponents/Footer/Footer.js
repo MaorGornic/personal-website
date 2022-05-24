@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div class="custom-shape-divider-bottom-1650936595">
+    <div class="custom-shape-divider-bottom-1650936596">
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"

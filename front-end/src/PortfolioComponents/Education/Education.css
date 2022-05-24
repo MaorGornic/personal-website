@@ -1,3 +1,6 @@
+#education {
+  background-color: #24263b;
+}
 .education-container {
   display: flex;
   margin-bottom: 5rem;
@@ -12,12 +15,14 @@
   margin-left: 15%;
   font-weight: bold;
   font-size: 30px;
+  color: white;
 }
 
 .education-description p {
   margin-top: 25%;
   font-size: 25px;
   line-height: 50px;
+  color: white;
 }
 
 .education-description > p > span {
@@ -45,7 +50,6 @@
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    /* margin-left: 25%; */
   }
 
   .education-img-container img {

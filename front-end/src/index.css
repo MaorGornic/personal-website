@@ -150,19 +150,39 @@ body ::-webkit-scrollbar-thumb {
   margin-bottom: 0;
 }
 
+.main-heading-vtwo {
+  color: white;
+}
+
 .subheading {
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 1rem;
+}
+
+.subheading-vone {
   color: #666666;
+}
+
+.subheading-vtwo {
+  color: white;
+  opacity: 0.6;
 }
 
 .outter-line {
   display: inline-block;
   width: 200px;
   height: 2px;
-  background-color: #0e0e0e;
   position: relative;
+}
+
+.outter-line-vone {
+  background-color: #0e0e0e;
+}
+
+.outter-line-vtwo {
+  background-color: white;
+  opacity: 0.8;
 }
 
 .inner-line {

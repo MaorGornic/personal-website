@@ -11,8 +11,10 @@ export default function Projects() {
       <Zoom>
         <div className="heading-container">
           <h3 className="main-heading">Projects</h3>
-          <h5 className="subheading">A List of My Featured Projects</h5>
-          <div className="outter-line">
+          <h5 className="subheading subheading-vone">
+            A List of My Featured Projects
+          </h5>
+          <div className="outter-line outter-line-vone">
             <div className="inner-line"></div>
           </div>
         </div>
@@ -29,13 +31,20 @@ export default function Projects() {
                 restaurant owners to advertise their restaurant, create blogs,
                 communicate with other restaurant owners, grow their audience
                 and much more. Users can use this social media to explore new
-                restaurants, foods, and construct constructive feedback for
-                different restaurants.
+                restaurants and foods.
                 <br />
                 <br />
                 <span>Technologies used:</span> <br /> Python, Django, React,
                 Git, Chakra UI, SQLite, JWT, Javascript, HTML, CSS
               </p>
+              <div className="button-group">
+                <a href="#">
+                  <i className="fa fa-globe fa-2x"></i>
+                </a>
+                <a href="https://github.com/MaorGornic/Restify" target="_blank">
+                  <i className="fa fa-github fa-2x"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -55,6 +64,20 @@ export default function Projects() {
                 React, Node,js, Jira, Git, Chakra UI, JWT, Firebase, Javascript,
                 HTML, CSS, Redux
               </p>
+              <div className="button-group">
+                <a
+                  href="https://studytogether-bad5e.firebaseapp.com/"
+                  target="_blank"
+                >
+                  <i className="fa fa-globe fa-2x"></i>
+                </a>
+                <a
+                  href="https://github.com/MaorGornic/StudyTogether"
+                  target="_blank"
+                >
+                  <i className="fa fa-github fa-2x"></i>
+                </a>
+              </div>
             </div>
             <img src={StudytogetherLogo} alt="" />
           </div>
@@ -77,6 +100,14 @@ export default function Projects() {
                 <br />
                 <span>Technologies used:</span> <br /> Java, JavaFX, CSS
               </p>
+              <div className="button-group">
+                <a
+                  href="https://github.com/IGoTransit/TransitApp"
+                  target="_blank"
+                >
+                  <i className="fa fa-github fa-2x"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>

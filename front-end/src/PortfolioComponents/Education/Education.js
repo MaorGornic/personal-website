@@ -1,15 +1,18 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
 import "./Education.css";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 
 export default function Education() {
   return (
     <div id="education">
+      <Header />
       <Zoom>
         <div className="heading-container">
-          <h3 className="main-heading">Education</h3>
-          <h5 className="subheading">Where do I study?</h5>
-          <div className="outter-line">
+          <h3 className="main-heading main-heading-vtwo">Education</h3>
+          <h5 className="subheading subheading-vtwo">Where do I study?</h5>
+          <div className="outter-line  outter-line-vtwo">
             <div className="inner-line"></div>
           </div>
         </div>
@@ -36,6 +39,9 @@ export default function Education() {
           </div>
         </div>
       </Zoom>
+      <div style={{ marginTop: "-95px" }}>
+        <Footer />
+      </div>
     </div>
   );
 }

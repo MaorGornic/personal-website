@@ -9,8 +9,8 @@ export default function AboutMe() {
       <Zoom>
         <div className="heading-container">
           <h3 className="main-heading">About Me</h3>
-          <h5 className="subheading">Why Choose Me?</h5>
-          <div className="outter-line">
+          <h5 className="subheading subheading-vone">Get To Know Me</h5>
+          <div className="outter-line outter-line-vone">
             <div className="inner-line"></div>
           </div>
         </div>
@@ -43,7 +43,6 @@ export default function AboutMe() {
               <li>React and React Native Development</li>
               <li>Building REST API</li>
               <li>Managing Databases</li>
-              <li>On Dean's Honours List</li>
             </ul>
           </div>
         </div>
